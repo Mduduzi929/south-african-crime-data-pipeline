@@ -1,0 +1,10 @@
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\database\DatabaseConnection.java
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\database\SchemaInitializer.java
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\extraction\CsvCrimeReader.java
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\loading\CrimeRepository.java
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\Main.java
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\model\CrimeEvent.java
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\model\CrimeRecord.java
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\model\DataQualityIssue.java
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\transformation\CrimeTransformer.java
+C:\Users\MOKWE\Downloads\south-african-crime-data-pipeline\src\main\java\za\co\crime\validation\CrimeValidator.java

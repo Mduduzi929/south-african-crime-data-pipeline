@@ -1,0 +1,10 @@
+za\co\crime\transformation\CrimeTransformer.class
+za\co\crime\model\DataQualityIssue.class
+za\co\crime\extraction\CsvCrimeReader.class
+za\co\crime\loading\CrimeRepository.class
+za\co\crime\database\DatabaseConnection.class
+za\co\crime\database\SchemaInitializer.class
+za\co\crime\Main.class
+za\co\crime\model\CrimeEvent.class
+za\co\crime\validation\CrimeValidator.class
+za\co\crime\model\CrimeRecord.class
