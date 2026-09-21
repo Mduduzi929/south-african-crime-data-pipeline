@@ -1,28 +1,32 @@
 package za.co.crime.model;
 
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
-public class CrimeRecord {
+public class CrimeEvent {
 
     private final String year;
     private final String station;
     private final String municipality;
     private final String district;
+
     private final Double longitude;
     private final Double latitude;
 
-    private final Map<String, Integer> crimeCounts;
+    private final String crimeType;
+    private final Integer incidentCount;
 
-    public CrimeRecord(
+    private final int sourceRowNumber;
+    private final String sourceStatus;
+
+    public CrimeEvent(
             String year,
             String station,
             String municipality,
             String district,
             Double longitude,
             Double latitude,
-            Map<String, Integer> crimeCounts
+            String crimeType,
+            Integer incidentCount,
+            int sourceRowNumber,
+            String sourceStatus
     ) {
 
         this.year = year;
@@ -31,8 +35,10 @@ public class CrimeRecord {
         this.district = district;
         this.longitude = longitude;
         this.latitude = latitude;
-
-        this.crimeCounts = new LinkedHashMap<>(crimeCounts);
+        this.crimeType = crimeType;
+        this.incidentCount = incidentCount;
+        this.sourceRowNumber = sourceRowNumber;
+        this.sourceStatus = sourceStatus;
     }
 
     public String getYear() {
@@ -59,7 +65,19 @@ public class CrimeRecord {
         return latitude;
     }
 
-    public Map<String, Integer> getCrimeCounts() {
-        return Collections.unmodifiableMap(crimeCounts);
+    public String getCrimeType() {
+        return crimeType;
+    }
+
+    public Integer getIncidentCount() {
+        return incidentCount;
+    }
+
+    public int getSourceRowNumber() {
+        return sourceRowNumber;
+    }
+
+    public String getSourceStatus() {
+        return sourceStatus;
     }
 }
