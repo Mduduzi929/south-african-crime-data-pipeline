@@ -355,7 +355,8 @@ Testing currently covers the major ETL stages:
 CSV Reader
     │
     ├── Valid CSV
-    └── Missing required columns
+    └── Missing required columns 
+    
 
 Validator
     │
